@@ -11,13 +11,13 @@
 }:
 
 let
-  version = "2.1.193";
+  version = "2.1.195";
 
   platformMap = {
-    x86_64-linux = { suffix = "linux-x64"; hash = "sha256-yfBNkp8YvZoQHziX8n3k4eDxXr6EANSq8CmD1z3Wax0="; };
-    aarch64-linux = { suffix = "linux-arm64"; hash = "sha256-OUVM5i55XutIcagfZFPNqW6Sbi25pN1B0OwbYLAVNEg="; };
-    x86_64-darwin = { suffix = "darwin-x64"; hash = "sha256-y6XDvcqKtfjnWQQGcC1Bj2EU2bOfSPFodmgOiBq/Hug="; };
-    aarch64-darwin = { suffix = "darwin-arm64"; hash = "sha256-91E6MDha2QGcI3Im/W7EZQizBi6+/Kiu2+OX0RGoGP8="; };
+    x86_64-linux = { suffix = "linux-x64"; hash = "sha256-gyPnASUGMUekR4uVd0XYNah+XnL/0luDjqmoQcA+ajc="; };
+    aarch64-linux = { suffix = "linux-arm64"; hash = "sha256-sCJ5mZBY3ICg4cXTlGPRVFoXhhVJL4QTmqyNYSFKfpo="; };
+    x86_64-darwin = { suffix = "darwin-x64"; hash = "sha256-frhxbm1uaieNExWHk1KTNikIN/ykV/rP7GVvGxoofGA="; };
+    aarch64-darwin = { suffix = "darwin-arm64"; hash = "sha256-i0WtrZPzNquV8z5xRJSxn9M3eklOsFwSLIZ3vIlYdq0="; };
   };
 
   platform = platformMap.${stdenv.hostPlatform.system}
